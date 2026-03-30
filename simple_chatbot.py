@@ -1,8 +1,3 @@
-"""
-Takes a plain text file and provides summaries and answers questions about it.
-Uses text analysis rather than neural network generation for practical results.
-"""
-
 import os
 import sys
 from collections import Counter
