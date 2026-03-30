@@ -1,5 +1,4 @@
 """
-Simple Q&A and Summarization Chatbot
 Takes a plain text file and provides summaries and answers questions about it.
 Uses text analysis rather than neural network generation for practical results.
 """
@@ -9,9 +8,6 @@ import sys
 from collections import Counter
 import re
 
-# ============================================================================
-# Text Processing & Analysis
-# ============================================================================
 
 def load_file(filepath):
     """Load and read file content."""
@@ -126,10 +122,7 @@ def answer_question(text, question):
     
     return answer.strip()
 
-# ============================================================================
 # Main Chatbot Interface
-# ============================================================================
-
 def main():
     print("=" * 70)
     print("  Text Summarization & Q&A Chatbot")
