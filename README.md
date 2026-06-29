@@ -1,6 +1,6 @@
 # experimenting-microgpt
 
-Forked from [Karpathy's microGPT](https://github.com/karpathy/microGPT) — the most atomic, dependency-free implementation of a GPT in pure Python. This repo extends it with two small chatbot demos.
+Forked from [Karpathy's microGPT](https://github.com/karpathy/microGPT). This repo extends it with two small chatbot demos.
 
 There are three tools here:
 
@@ -8,13 +8,13 @@ There are three tools here:
 2. **`simple_chatbot.py`** — loads a text file and answers questions about it using keyword matching, plus a `babble` command that trains MicroGPT live on the document and shows what a tiny char-level model actually produces.
 3. **`ollama_chatbot.py`** — loads a text file and answers questions about it using a real local LLM via [Ollama](https://ollama.com). This is the "actually useful" version.
 
-## 1. microgpt.py — the toy GPT itself
+## 1. microgpt.py
 
 ```bash
 python microgpt.py
 ```
 
-Trains a tiny (~4k parameter) character-level GPT on a list of names (downloaded automatically on first run) and samples 20 new, made-up names. Everything — autograd, attention, Adam optimizer — is implemented from scratch in plain Python, no dependencies.
+Trains a tiny (~4k parameter) character-level GPT on a list of names (downloaded automatically on first run) and samples 20 new, made-up names. Everything — autograd, attention, Adam optimizer.
 
 It's also importable as a class:
 
