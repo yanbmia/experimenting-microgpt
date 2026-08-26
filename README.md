@@ -42,7 +42,7 @@ Loads a document and lets you:
 
 ## 3. ollama_chatbot.py — real LLM document Q&A
 
-This is the practical version: same "load a doc, ask questions" interface, but backed by a real local language model through [Ollama](https://ollama.com), so it can actually answer open-ended questions accurately.
+Backed by a real local language model through [Ollama](https://ollama.com), so it can answer open-ended questions accurately.
 
 ### Setup
 1. Install Ollama: https://ollama.com/download
