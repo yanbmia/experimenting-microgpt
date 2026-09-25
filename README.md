@@ -1,12 +1,7 @@
 # experimenting-microgpt
 
-Forked from [Karpathy's microGPT](https://github.com/karpathy/microGPT). This repo extends it with two small chatbot demos.
+Forked from [Karpathy's microGPT](https://github.com/karpathy/microGPT).
 
-There are three tools here:
-
-1. **`microgpt.py`** — pure Python GPT (autograd engine + transformer, no numpy/torch)
-2. **`simple_chatbot.py`** — loads a text file and answers questions about it using keyword matching. Also has a `babble` command that trains MicroGPT live on the document and shows what a tiny char-level model actually produces.
-3. **`ollama_chatbot.py`** — loads a text file and answers questions about it using a local LLM via [Ollama](https://ollama.com).
 
 ## 1. microgpt.py
 
