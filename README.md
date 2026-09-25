@@ -35,7 +35,7 @@ Loads a document and lets you:
 - Type `babble` to watch MicroGPT train for a few seconds on chunks of the loaded document, then hallucinate fake words/phrases from what it learned
 - Type `quit` to exit
 
-## 3. ollama_chatbot.py — real LLM document Q&A
+## 3. ollama_chatbot.py — LLM document Q&A
 
 Backed by a real local language model through [Ollama](https://ollama.com), so it can answer open-ended questions accurately.
 
